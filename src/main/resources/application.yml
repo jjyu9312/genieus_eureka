@@ -1,0 +1,13 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    # ??? mricroservice ID ??
+    name: discoveryservice
+
+eureka:
+  client:
+    # ??? ??? ???? x => ??? server??? ??? ??
+    eureka.client.register-with-eureka: false
+    eureka.client.fetch-registry: false
